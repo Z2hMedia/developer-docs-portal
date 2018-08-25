@@ -1,14 +1,13 @@
-# Getting Started
----
+Getting Started
+===
 
-### Getting A Key
+## Security
 
-Ask Sean.
+To make a request, users must be authenticated via one of the following:
 
-### Security
+* Firebase (biba-data-serv, biba-cloud, or biba-backend projects)
+* Google ID Token
 
-To make a request, users must be authenticated via Firebase.
+Once you've logged in via Firebase or have your Google ID token, get a JWT and
+put it in the `Authorization` header.
 
-### Using the API
-
-Browse the reference section of this site to see examples of what you can do with this API and how to use it. You can use the **Try this API** tool on the right side of an API method page to generate a sample request.
