@@ -28,11 +28,11 @@ ordering:
   - API Reference
   - Resources
 
-  folders:
-    Guides:
-      # If you want to have sub-folders, you can add another 'folders' map within
-      # this folder's configuration.
-      # In this example, there is only a 'Getting Started' page and no sub-folders.
-      # The add_example_page script will add a page named 'Example Page' here.
-      ordering:
-        - Getting Started
+folders:
+  Guides:
+    # If you want to have sub-folders, you can add another 'folders' map within
+    # this folder's configuration.
+    # In this example, there is only a 'Getting Started' page and no sub-folders.
+    # The add_example_page script will add a page named 'Example Page' here.
+    ordering:
+      - Getting Started
