@@ -116,14 +116,14 @@ When the application has collected LMV data, it is sent using this event.
       {                                             
         "player": "player 1",                       
         "light": "34s",                             
-        "medium": "1m3s",                                 
+        "moderate": "1m3s",                                 
         "vigorous": "5m34s"                         
       },                                            
       {                                             
         "player": "player 2",
         "profile": "50960d97-1c93-4403-bf82-d07966a3a93e",
         "light": "3m20s",                           
-        "medium": "1m20s",                          
+        "moderate": "1m20s",                          
         "vigorous": "45s"                           
       }                                             
     ]                                               
