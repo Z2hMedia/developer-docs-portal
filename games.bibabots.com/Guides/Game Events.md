@@ -546,6 +546,23 @@ If they choose to skip the tag scanning, add the "skipped" boolean:
     "skipped": true
   }
 }
+``**
+
+
+### Weather
+
+After fetching weather information from the API, this event is fired.
+
+**Example Data**
+```json
+{
+  "attributes": {                                                                                        
+    "type": "weather"                               
+  },
+  "weather": {
+    "description": "cloudy",
+    "temp": 10.3,
+    "windSpeed": 2.1
+  }
+}
 ```
-
-
