@@ -546,8 +546,7 @@ If they choose to skip the tag scanning, add the "skipped" boolean:
     "skipped": true
   }
 }
-``**
-
+```
 
 ### Weather
 
